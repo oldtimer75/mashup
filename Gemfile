@@ -14,6 +14,8 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'pundit'
 gem 'nokogiri', '1.5.9'
+gem 'jquery-datatables-rails', git: 'git://github.com/rweng/jquery-datatables-rails.git'
+gem 'lodash-rails'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]

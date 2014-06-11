@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/rweng/jquery-datatables-rails.git
+  revision: 477e49a649c8d862988298bc96a93e030d023e0e
+  specs:
+    jquery-datatables-rails (1.12.2)
+      jquery-rails
+      sass-rails
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -84,6 +92,8 @@ GEM
     json (1.8.1)
     launchy (2.4.2)
       addressable (~> 2.3)
+    lodash-rails (2.4.1)
+      railties (>= 3.1)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -198,8 +208,10 @@ DEPENDENCIES
   factory_girl_rails
   faker
   jbuilder (~> 2.0)
+  jquery-datatables-rails!
   jquery-rails
   launchy
+  lodash-rails
   nokogiri (= 1.5.9)
   pundit
   quiet_assets
